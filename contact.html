@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="choose therapy, mobile therapy service based in Perth, WA.">
+  <title>Choose Therapy</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div id="wrapper">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="expertise.html">Expertise</a></li>
+          <li><a href="pricing.html">Pricing</a></li>          
+          <li><a href="appointment.html">Appointment</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <section class="nav-icon-container">
+        <img class="nav-icon" src="./images/navigation-icon.svg" alt="navigation">
+        <!-- reference by streamline URL:https://www.streamlinehq.com/icons/ultimate-regular-free?search=navigation&icon=ico_pgTZZIczXHFkqvku -->
+      </section>
+      <section class="logo">
+        <a href="index.html"><img src="./images/choose-therapy-logo.jpeg" alt="logo"></a>
+        <p>Your life, your choice.</p>
+      </section>  
+    </header>
+    <main id="contact">
+      <section>
+        <h1>Contact us</h1>
+        <p>We'd love to hear from you!</p>
+      </section>
+      <section class="contact-contents">
+        <form id="theForm">
+          <fieldset>
+            <section class="name">
+              <label for="firstName">First Name <span>&#42;</span></label>
+              <span class="tooltip" id="tooltip-firstName">Please enter your first name</span>
+              <input type="text" name="firstName" id="firstName" required>
+            </section>
+            <section class="name">
+              <label for="lastName">Last Name <span>&#42;</span></label>
+              <span class="tooltip" id="tooltip-lastName">Please enter your last name</span>
+              <input type="text" name="lastName" id="lastName" required>
+            </section>
+            <section class="email">
+              <label for="email">Email Address <span>&#42;</span></label>
+              <span class="tooltip" id="tooltip-email">Please enter valid email address</span>
+              <input type="text" name="email" id="email" required></section>
+            <section class="message">
+              <label for="message">Your message <span>&#42;</span> 
+                <span class="tooltip" id="tooltip-message">Please describe the plan you are currently on and what you would like to inquire about.</span>
+              </label>
+              <input type="text" name="message" id="message" required>
+            </section>
+            <section class="submit">
+              <input type="submit" value="submit" id="submit">
+            </section>
+          </fieldset>
+        </form>
+        <section class="contact-image">
+          <img src="./images/contact-us.jpg" alt="photo of a team">
+          <!-- reference by Unsplash URL:https://unsplash.com/@naassomz1?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash -->
+        </section>
+      </section>
+    </main>
+    <footer>
+      <section class="footer-main">
+        <section class="left-footer">
+          <section class="footer-logo">
+            <a href="index.html"><img src="./images/choose-therapy-logo-transparent.png" alt="logo"></a>
+          </section>
+          <section class="social-media">
+            <a href="https://www.facebook.com/choosetherapy.au"><img src="./images/facebook-sns.png" alt="facebook logo"></a>
+            <a href="https://www.instagram.com/choosetherapy.au/"><img src="./images/instagram-logo.png" alt="instagram logo"></a>
+            <a href="https://au.linkedin.com/in/jerome-choo-42639375?original_referer=https%3A%2F%2Fwww.google.com%2F"><img src="./images/linkedin-logo.png" alt="linkedin logo"></a>
+            <a href="#"><img src="./images/youtube-logo.png" alt="youtube logo"></a>
+          </section>
+        </section>
+        <section class="address">
+          <address>
+            <p>0430 522 850</p>
+            <p>choosetherapy@gmail.com</p>
+            <p>Chat with us via <a href="https://wa.me/61430522850">whatsapp</a></p>
+          </address>
+        </section>
+        <nav class="sitemap">
+          <ul>
+            <li><a href="./index.html">Choose Therapy</a></li>
+            <li><a href="#">Terms and Policy</a></li>
+            <li><a href="./appointment.html">Make an appointment</a></li>
+            <li><a href="./contact.html">Contact Us</a></li> 
+          </ul>
+        </nav>
+      </section>
+      <section class="copyright">
+        <p>copyright &copy; all rights are reserved.</p>
+      </section>
+    </footer>
+    <script src="./js/contact.js"></script>
+    <script src="./js/errorMessages.js"></script>
+    <script src="./js/utilities.js"></script>
+  </div>
+</body>
+</html>
