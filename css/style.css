@@ -177,8 +177,8 @@ header .logo img {
   margin-bottom: 0.5rem;
 }
 
-#index, #expertise, #pricing {
-  margin: 0 2em;
+#index, #expertise, #pricing, #appointment, #contact {
+  margin: 0;
 }
 
 #expertise {
@@ -187,11 +187,10 @@ header .logo img {
     "intro" "image";
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
-  margin: 5rem 2em;
+  margin: 5rem 1em;
   background-color: var(--box-color);
   padding: 2em;
   border-radius: 30px;
-  margin-bottom: 2em;
 }
 
 #expertise h1 {
@@ -225,7 +224,7 @@ header .logo img {
 
 #pricing {
   margin: 5rem 0;
-  padding: 0 2rem;
+  padding: 0 1rem;
 }
 
 #pricing .pricing-container {
@@ -983,6 +982,11 @@ footer .copyright p {
 
   #pricing .pricing-container {
     margin-top: 3rem;
+  }
+
+  #appointment,
+  #contact {
+    overflow-x: 0;
   }
 
   #appointment fieldset {
