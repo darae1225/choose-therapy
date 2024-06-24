@@ -45,16 +45,21 @@
           <p>We would love to hear from you!</p>
           <p>We will get back to you within 2 business days.</p>
         </section>
-        <form action="#" method="post" id="theForm">
+        <form action="https://formsubmit.co/choosetherapy@gmail.com" method="POST" id="theForm">
+          <!-- honeypot -->
+          <input type="text" name="_honey" style="display: none;">
+          <!-- Disable Captcha -->
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_name" value="https://darae1225.github.choose-therapy/success.html">
           <fieldset>
             <section class="details mobile-details">
               <label for="firstName" class="block-label">First Name <span>&#42;</span></label>
-              <input type="text" name="firstName" id="firstName" required>
+              <input type="text" name="First&nbsp;Name" id="firstName" required>
               <span class="tooltip" id="tooltip-firstName">Please enter your first name</span>
             </section>
             <section class="details mobile-details">
               <label for="lastName" class="block-label">Last Name <span>&#42;</span></label>
-              <input type="text" name="lastName" id="lastName" required>
+              <input type="text" name="Last&nbsp;Name" id="lastName" required>
               <span class="tooltip" id="tooltip-lastName">Please enter your last name</span>
             </section>
             <section class="details mobile-details">
@@ -113,6 +118,11 @@
     <script src="./js/contact.js"></script>
     <script src="./js/errorMessages.js"></script>
     <script src="./js/utilities.js"></script>
+    <script>
+      function runCode(e) {
+        e.preventDefault();
+      }
+    </script>
   </div>
   <script src="js/navigation.js"></script>
 </body>
