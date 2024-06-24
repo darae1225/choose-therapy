@@ -177,13 +177,17 @@ header .logo img {
   margin-bottom: 0.5rem;
 }
 
+#index, #expertise, #pricing {
+  margin: 0 2em;
+}
+
 #expertise {
   display: grid;
   grid-template-areas: 
     "intro" "image";
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
-  margin: 5rem 0;
+  margin: 5rem 2em;
   background-color: var(--box-color);
   padding: 2em;
   border-radius: 30px;
@@ -913,7 +917,7 @@ footer .copyright p {
     grid-template-rows: 170px 180px 120px 180px;
     max-width: 300px;
     gap: 2rem;
-    padding: 0 1em 4em 1em;
+    padding: 0 2em 4em 2em;
   }
 
   #index .leave-img-mobile,
@@ -932,7 +936,7 @@ footer .copyright p {
 
   #index .vision {
     max-width: 300px;
-    padding: 0 1em 4em 1em;
+    padding: 0 2em 4em 2em;
   }
 
   #index .vision-container {
@@ -953,7 +957,7 @@ footer .copyright p {
     flex-flow: column;
     margin: 0 0 2em 0;
     max-width: 300px;
-    padding: 1em 1em 3em 1em;
+    padding: 1em 2em 3em 2em;
   }
 
   #index .therapist-name {
@@ -969,7 +973,12 @@ footer .copyright p {
   }
 
   #expertise {
-    margin-top: 6em;
+    margin-top: 4em;
+    padding: 0 2em 4em 2em;
+  }
+
+  #expertise article {
+    margin: 0;
   }
 
   #pricing .pricing-container {
